@@ -26,7 +26,8 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      # The lock file is written on Windows and lacks some Linux-only optional packages, so not `npm ci`.
+      - run: npm install --no-audit --no-fund
       - run: npm test
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
