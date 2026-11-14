@@ -11,6 +11,7 @@ import { Rng } from './engine/rng';
 import { Run } from './engine/run';
 import type { ClassId } from './engine/types';
 import { cleanCode, cleanName, CODE_LENGTH, Session, type SessionHandlers, type StartInfo } from './net/session';
+import { assetUrl } from './ui/assets';
 import { flyCard, playCharAnim, playFx, rewindFx, sleep, spawnEffect } from './ui/fx';
 import { musicFor, sceneFor, setScene } from './ui/scene';
 import { music, sfx, unlockAudio } from './ui/sound';
@@ -689,6 +690,6 @@ const iconNames = new Set([
 // An invite link (?join=CODE) fills in the room code.
 S.joinCode = cleanCode(new URLSearchParams(location.search).get('join'));
 if (S.joinCode) S.notice = 'You have been invited to a squad. Type your name and press Join.';
-for (const name of iconNames) new Image().src = `${import.meta.env.BASE_URL}icons/${name}.svg`;
+for (const name of iconNames) new Image().src = assetUrl(`icons/${name}.svg`);
 
 render();

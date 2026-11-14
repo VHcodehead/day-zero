@@ -8,10 +8,9 @@ import type { Party } from '../engine/party';
 import { MARKET, type Run, type ShopItem } from '../engine/run';
 import type { CardDef, CardInstance, Enemy, Move, Statuses } from '../engine/types';
 import { CLASS_ART, ENEMY_ART } from './art-manifest';
-import { spriteHtml } from './assets';
+import { BASE, spriteHtml } from './assets';
 import { dailySetup, S, todayString } from './state';
 
-const BASE = import.meta.env.BASE_URL;
 const esc = (s: string): string =>
   s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
 const pct = (n: number): string => `${Math.round(n * 100)}%`;

@@ -4,7 +4,11 @@
  * a table falls back to the flat icons and synthesised sounds, so the game always runs.
  */
 
-const BASE = import.meta.env.BASE_URL;
+/**
+ * Absolute, because these URLs end up in CSS custom properties, and a relative url() there is
+ * resolved against the stylesheet (in /assets/), not the page.
+ */
+export const BASE = new URL(import.meta.env.BASE_URL, document.baseURI).href;
 export const assetUrl = (path: string): string => `${BASE}${path}`;
 
 /** One animation: a horizontal strip of equal frames inside an image. */
