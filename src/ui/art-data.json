@@ -1,0 +1,384 @@
+{
+  "chars": {
+    "drone": {
+      "src": "art/chars/drone.png",
+      "fw": 32,
+      "fh": 57,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 3
+        },
+        "death": {
+          "row": 1,
+          "frames": 4
+        }
+      }
+    },
+    "spitter": {
+      "src": "art/chars/spitter.png",
+      "fw": 25,
+      "fh": 31,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        }
+      }
+    },
+    "bulwark": {
+      "src": "art/chars/bulwark.png",
+      "fw": 58,
+      "fh": 42,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 5
+        }
+      }
+    },
+    "leaper": {
+      "src": "art/chars/leaper.png",
+      "fw": 42,
+      "fh": 30,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        },
+        "attack": {
+          "row": 1,
+          "frames": 6
+        }
+      }
+    },
+    "alpha": {
+      "src": "art/chars/alpha.png",
+      "fw": 85,
+      "fh": 36,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        }
+      }
+    },
+    "crusher": {
+      "src": "art/chars/crusher.png",
+      "fw": 64,
+      "fh": 44,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 2
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4
+        }
+      }
+    },
+    "brood_mother": {
+      "src": "art/chars/brood_mother.png",
+      "fw": 87,
+      "fh": 101,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 3
+        }
+      }
+    },
+    "stalker": {
+      "src": "art/chars/stalker.png",
+      "fw": 54,
+      "fh": 57,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 8
+        }
+      }
+    },
+    "screamer": {
+      "src": "art/chars/screamer.png",
+      "fw": 46,
+      "fh": 47,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 7
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4
+        },
+        "death": {
+          "row": 2,
+          "frames": 7
+        }
+      }
+    },
+    "burrower": {
+      "src": "art/chars/burrower.png",
+      "fw": 54,
+      "fh": 32,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 6
+        },
+        "death": {
+          "row": 1,
+          "frames": 4
+        }
+      }
+    },
+    "swarmling": {
+      "src": "art/chars/swarmling.png",
+      "fw": 63,
+      "fh": 31,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 2
+        },
+        "death": {
+          "row": 1,
+          "frames": 4
+        }
+      }
+    },
+    "ravager": {
+      "src": "art/chars/ravager.png",
+      "fw": 47,
+      "fh": 62,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 6
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4
+        }
+      }
+    },
+    "matriarch": {
+      "src": "art/chars/matriarch.png",
+      "fw": 56,
+      "fh": 88,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 16
+        },
+        "attack": {
+          "row": 1,
+          "frames": 8
+        }
+      }
+    },
+    "siege_titan": {
+      "src": "art/chars/siege_titan.png",
+      "fw": 60,
+      "fh": 66,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 10
+        }
+      }
+    },
+    "warden": {
+      "src": "art/chars/warden.png",
+      "fw": 43,
+      "fh": 66,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 3
+        }
+      }
+    },
+    "leech": {
+      "src": "art/chars/leech.png",
+      "fw": 24,
+      "fh": 38,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        }
+      }
+    },
+    "hunter": {
+      "src": "art/chars/hunter.png",
+      "fw": 56,
+      "fh": 40,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 8
+        },
+        "attack": {
+          "row": 1,
+          "frames": 8
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 4
+        },
+        "death": {
+          "row": 3,
+          "frames": 4
+        }
+      }
+    },
+    "praetorian": {
+      "src": "art/chars/praetorian.png",
+      "fw": 104,
+      "fh": 85,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 5
+        },
+        "attack": {
+          "row": 1,
+          "frames": 5
+        },
+        "death": {
+          "row": 2,
+          "frames": 2
+        }
+      }
+    },
+    "omega": {
+      "src": "art/chars/omega.png",
+      "fw": 87,
+      "fh": 110,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 8
+        }
+      }
+    },
+    "grunt": {
+      "src": "art/chars/grunt.png",
+      "fw": 32,
+      "fh": 55,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 3
+        }
+      }
+    },
+    "scout": {
+      "src": "art/chars/scout.png",
+      "fw": 44,
+      "fh": 50,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 6
+        },
+        "attack": {
+          "row": 1,
+          "frames": 3
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 2
+        }
+      }
+    },
+    "engineer": {
+      "src": "art/chars/engineer.png",
+      "fw": 50,
+      "fh": 36,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        },
+        "attack": {
+          "row": 1,
+          "frames": 2
+        }
+      }
+    },
+    "veteran": {
+      "src": "art/chars/veteran.png",
+      "fw": 48,
+      "fh": 59,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        },
+        "attack": {
+          "row": 1,
+          "frames": 3
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 1
+        }
+      }
+    },
+    "hybrid": {
+      "src": "art/chars/hybrid.png",
+      "fw": 25,
+      "fh": 40,
+      "anims": {
+        "idle": {
+          "row": 0,
+          "frames": 4
+        },
+        "attack": {
+          "row": 1,
+          "frames": 3
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 2
+        }
+      }
+    }
+  },
+  "fx": {
+    "hit": {
+      "src": "art/fx/hit.png",
+      "fw": 32,
+      "fh": 32,
+      "frames": 5
+    },
+    "crit": {
+      "src": "art/fx/crit.png",
+      "fw": 128,
+      "fh": 96,
+      "frames": 8
+    },
+    "explosion": {
+      "src": "art/fx/explosion.png",
+      "fw": 128,
+      "fh": 80,
+      "frames": 10
+    },
+    "shield": {
+      "src": "art/fx/shield.png",
+      "fw": 51,
+      "fh": 47,
+      "frames": 8
+    },
+    "heal": {
+      "src": "art/fx/heal.png",
+      "fw": 100,
+      "fh": 100,
+      "frames": 40
+    }
+  }
+}
